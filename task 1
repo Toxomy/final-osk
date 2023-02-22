@@ -1,0 +1,14 @@
+#Task 1
+
+#adding new user
+$sudo adduser student
+
+#reentering password
+$sudo passwd student
+
+#entering student
+$sudo su
+$su student
+
+#check that we logged in as the new user
+$whoami
