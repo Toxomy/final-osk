@@ -2,8 +2,8 @@
 #include <linux/module.h>
 
 MODULE_LICENSE("GPL")
-MODULE_AUTHOR("Noyan")
-MODULE_DESCRIPTION("Hello World - Linux Kernel Module");
+MODULE_AUTHOR("toxomy")
+MODULE_DESCRIPTION("Hello World");
 
 static int __init hello_init(void)
 {
@@ -13,7 +13,7 @@ static int __init hello_init(void)
 
 static void __exit hello_exit(void)
 {
-  print(KERN_INFO "Goodbey World!\n");
+  print(KERN_INFO "Goodbye!\n");
 }
 
 module_init(hello_init);
